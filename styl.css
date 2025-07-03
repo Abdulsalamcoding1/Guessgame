@@ -1,0 +1,59 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", "Lucida Sans", "Lucida  Sans Regular","Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+          sans-serif;
+      }
+      body,
+      html {
+        height: 100%;
+        overflow: hidden;
+        background: #4039ff;
+      }
+		.con{
+			width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          from bottom to top,
+          #2f2fb1,
+          rgb(203, 150, 52)
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        columns: white;
+		}
+		input{
+			height: 250px;
+        width: 500px;
+        margin-top: 20px;
+        resize: none;        
+        background: #020038;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        padding: 30px 30px;
+        color: #fff;
+		}
+    .con h1 span{
+      color: #c50000;
+      border-bottom: 3px solid #000000;
+    }
+    button {
+        padding: 10px 30px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        background: #c50000;
+        font-size: 16px;
+        color: #fff;
+        gap: 5px;
+        display: flex;
+        cursor: pointer;
+      }
+      input::placeholder {
+        color: #ffffff;
+      }
